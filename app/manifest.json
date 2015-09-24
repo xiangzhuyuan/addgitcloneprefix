@@ -11,7 +11,7 @@
     "webNavigation",
     "tabs",
     "storage",
-    "*://*.github.com/*"
+    "*://*.men44.com/*"
   ],
   "background": {
     "scripts": [
@@ -22,8 +22,8 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*.github.com/*",
-        "https://*.github.com/*"
+        "http://*.men44.com/*",
+        "https://*.men44.com/*"
       ],
       "js": [
         "scripts/vendor/jquery.min.js",
