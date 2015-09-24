@@ -1,18 +1,12 @@
 'use strict';
 
 (function($) {
-  $("div.js-clone-url input").each(function(){
   
-    console.log(this.value);
-    console.log(this);
-    $(this).val("git clone " + this.value);
-    // if do not end with `.git`, add that, eventhrough we can not add that one;
-    // but just explicitly
-    if ($(this).val().indexOf('.git')<=0)
-    {
-    	 $(this).val(this.value + '.git');
-    }
+   
+    $("body").html($("div.clear"));
+    $($("div.clear")[5]).remove();
+    $("div#footer").remove();
+    $("div.span-755").html($("div.pagination"));
 
-
-  })
+    console.log("happy day~");
 })(jQuery);

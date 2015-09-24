@@ -8,7 +8,7 @@ function onWebNav(details) {
 }
 var filter = {
     url: [{
-        hostEquals: 'github.com'
+        hostEquals: 'men44.com'
     }]
 };
 chrome.webNavigation.onCommitted.addListener(onWebNav, filter);
