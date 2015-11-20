@@ -1,7 +1,8 @@
 'use strict';
 
 (function($) {
-  $("div.js-clone-url input").each(function(){
+  //$("div.js-clone-url input").each(function(){
+  $("div.js-select-menu input").each(function(){
   
     console.log(this.value);
     console.log(this);
